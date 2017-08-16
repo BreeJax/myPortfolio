@@ -1,0 +1,27 @@
+body {
+  background-color: #e3e4fa;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.header:after {
+  content: "Developer";
+  animation: change 17s infinite;
+}
+@keyframes change {
+  0% {
+    content: "Full Stack Developer ";
+  }
+  33% {
+    content: "Node Developer ";
+  }
+  68% {
+    content: "JavaScript Developer ";
+  }
+  100% {
+    content: "Lifelong Student ";
+  }
+}
