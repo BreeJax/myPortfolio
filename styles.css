@@ -1,27 +1,27 @@
 body {
   background-color: #e3e4fa;
-}
-
-h1 {
-  width: 100%;
+  padding: 0 2em;
   text-align: center;
 }
 
 .header:after {
   content: "Developer";
-  animation: change 17s infinite;
+  animation: change 15s infinite;
 }
 @keyframes change {
-  0% {
+  10% {
     content: "Full Stack Developer ";
   }
-  33% {
+  25% {
     content: "Node Developer ";
   }
-  68% {
+  50% {
     content: "JavaScript Developer ";
   }
-  100% {
+  75% {
     content: "Lifelong Student ";
+  }
+  100% {
+    content: "Coffee Addict ";
   }
 }
