@@ -1,11 +1,14 @@
 body {
   background-color: #e3e4fa;
-  padding: 0 2em;
   text-align: center;
+}
+p {
+  padding: 0 3em;
+  font-size: 1.25em;
 }
 
 .header:after {
-  content: "Developer";
+  content: "Full Stack Developer";
   animation: change 15s infinite;
 }
 @keyframes change {
@@ -24,4 +27,16 @@ body {
   100% {
     content: "Coffee Addict ";
   }
+}
+
+header {
+  background-image: url(images/coffee-and-computer.jpeg);
+  color: white;
+  /*height: 9em;*/
+  /*width: 100%;*/
+  text-align: center;
+  background-size: cover;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  font-size: 1.5em;
 }
