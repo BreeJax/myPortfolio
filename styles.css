@@ -1,7 +1,17 @@
 body {
-  background-color: #e5e4e2;
+  background-color: #ae52d4;
   text-align: center;
+  font-family: 'Signika', sans-serif;
 }
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#bj {
+  font-size: 3em;
+}
+
 .about {
   padding: 0 3em;
 }
@@ -38,22 +48,57 @@ p {
 
 header {
   background-image: url(images/coffee-and-computer.jpeg);
-  color: #e5e4e2;
+  color: black;
   text-align: center;
   background-size: cover;
   padding-top: 3em;
   padding-bottom: 3em;
   font-size: 1.5em;
-  text-shadow: 5px 5px 10px black;
+  text-shadow: 2px 2px 8px #ae52d4;
 }
 section > h3 {
   text-align: left;
-  padding-left: 3em;
+  padding-left: 1.5em;
+  font-size: 2em;
+}
+.logos {
+  width: 3em;
+  height: 3em;
+  padding: 1em;
 }
 
 section > div > img {
-  width: 10em;
-  height: 10em;
+  width: 11em;
+  height: 11em;
   border: 0.25em solid black;
   margin: 1em;
+  border-radius: 50px;
+}
+@media screen and (max-width: 600px) {
+  #bj {
+    font-size: 2em;
+  }
+  #titles {
+    font-size: 1.45em;
+  }
+  section > h3 {
+    text-align: center;
+    padding-left: 0;
+    font-size: 2em;
+  }
+  .about {
+    padding: 0 0.75em;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectExamples {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+  }
 }
