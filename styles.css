@@ -45,6 +45,7 @@ header {
   text-align: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   padding-top: 3em;
   padding-bottom: 3em;
@@ -72,6 +73,19 @@ header {
   padding: 0.5em;
   background-color: #7e56c1;
   margin: 1em;
+}
+#quote {
+  background-image: url(images/purple-sunrise.jpg);
+  color: darkgray;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3em;
+  font-size: 1.5em;
+  text-shadow: 5px 5px 8px black;
+  height: 10em;
 }
 
 /*projects*/
@@ -147,7 +161,13 @@ header {
   }
   header {
     background-size: auto;
+    background-position: top;
     padding-top: 3em;
     padding-bottom: 3em;
+  }
+  #quote {
+    color: darkgray;
+    text-align: center;
+    padding: 1em;
   }
 }
