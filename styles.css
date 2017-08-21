@@ -9,6 +9,7 @@ h2 {
   text-transform: uppercase;
   width: 100%;
   font-size: 3em;
+  margin: 0.25em 0;
 }
 p {
   font-size: 1.25em;
@@ -55,7 +56,7 @@ header {
 /*About*/
 
 #aboutSection {
-  background-color: #bbb5c3;
+  /*background-color: #bbb5c3;*/
   /*color: #ede7f6;*/
   padding: 1em 0 1em 0;
 }
@@ -71,7 +72,7 @@ header {
   height: 20em;
   border-radius: 50px;
   padding: 0.5em;
-  background-color: #7e56c1;
+  background-color: black;
   margin: 1em;
 }
 #quote {
@@ -102,9 +103,9 @@ header {
 }
 
 .projects > div > img {
-  width: 11em;
-  height: 11em;
-  border: 0.25em solid #7e56c1;
+  width: 50em;
+  height: 16em;
+  border: 0.25em solid black;
   margin: 1em;
   border-radius: 50px;
 }
