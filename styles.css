@@ -13,6 +13,8 @@ h2 {
 }
 p {
   font-size: 1.25em;
+  display: flex;
+  align-items: center;
 }
 
 nav {
@@ -116,15 +118,27 @@ header {
 .projects > h3 {
   text-align: left;
   padding-left: 1.5em;
-  font-size: 2em;
+  font-size: 2.5em;
+  margin: 0;
 }
 
 .projects > div > img {
-  width: 11em;
-  height: 11em;
+  width: 14em;
+  height: 14em;
   border: 0.25em solid black;
   margin: 1em;
   border-radius: 50px;
+}
+.projectExamples > img {
+  width: 14em;
+  height: 14em;
+  border: 0.25em solid black;
+  margin: 1em;
+  border-radius: 50px;
+}
+.projectExamples > img:hover {
+  border: 0.25em solid rgba(134, 40, 147, 0.35);
+  opacity: 0.5;
 }
 
 /*bottom section*/
@@ -162,7 +176,7 @@ header {
   .projects > h3 {
     text-align: center;
     padding-left: 0em;
-    font-size: 2em;
+    font-size: 2.5em;
   }
 
   .projectExamples {
