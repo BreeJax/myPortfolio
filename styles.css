@@ -89,7 +89,7 @@ header {
 #aboutSection > div > img {
   width: 20em;
   height: 20em;
-  border-radius: 50px;
+  border-radius: 30px;
   padding: 0.5em;
   background-color: black;
   margin: 1em;
@@ -127,20 +127,51 @@ header {
   height: 14em;
   border: 0.25em solid black;
   margin: 1em;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 .projectExamples > img {
   width: 14em;
   height: 14em;
   border: 0.25em solid black;
   margin: 1em;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 .projectExamples > img:hover {
-  border: 0.25em solid rgba(134, 40, 147, 0.35);
+  border: 0.25em solid rgba(134, 40, 147, 0.50);
   opacity: 0.5;
 }
+/*skills*/
+.icons {
+  width: 7em;
+  height: 8em;
+  margin: 0 0.25em;
+}
 
+#skills {
+  background-image: url(images/woodBoards.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 2px 2px 8px #b085f5;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+#skillsIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.skillsNames {
+  text-align: center;
+  justify-content: center;
+  background-color: #361e66;
+  margin-left: 0.2em;
+  color: #c3b0e8;
+  text-shadow: 0 0 0;
+  padding: 0 0.25em;
+}
 /*bottom section*/
 .logos {
   width: 3em;
