@@ -10,6 +10,7 @@ h2 {
   width: 100%;
   font-size: 3em;
   margin: 0.25em 0;
+  padding-top: 1em;
 }
 p {
   font-size: 1.25em;
@@ -46,18 +47,18 @@ a {
   text-transform: uppercase;
 }
 .header:after {
-  content: "Full Stack Developer";
+  content: "Junior Full Stack Developer";
   animation: change 15s infinite;
 }
 @keyframes change {
   10% {
-    content: "Full Stack Developer ";
+    content: "Junior Full Stack Developer ";
   }
   25% {
-    content: "Node Developer ";
+    content: "Junior Node Developer ";
   }
   50% {
-    content: "JavaScript Developer ";
+    content: "Junior JavaScript Developer ";
   }
   75% {
     content: "Lifelong Student ";
@@ -113,6 +114,12 @@ header {
   font-size: 1.5em;
   text-shadow: 5px 5px 8px black;
   height: 10em;
+}
+.appInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*projects*/
@@ -185,7 +192,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   text-shadow: 4px 4px 10px #b085f5;
-  padding-top: 3em;
+  /*padding-top: 2em;*/
   padding-bottom: 3em;
 }
 
@@ -205,6 +212,9 @@ header {
   padding: 0.35em;
 }
 /*bottom section*/
+#feelFree {
+  font-size: 2.25em;
+}
 .logos {
   width: 3em;
   height: 3em;
@@ -268,5 +278,10 @@ header {
   }
   .logos {
     padding: 1em 0.4em;
+  }
+  #feelFree {
+    font-size: 1.7em;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 }
