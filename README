@@ -1,4 +1,4 @@
-Hello!! My name is Bree Jackson, and this is my portfolio!
+# Hello!! My name is Bree Jackson, and this is my portfolio!
 
 It's a constant work in progress, and made with a lot of help from my fellow Iron Yard students and instructors.
 
@@ -10,4 +10,4 @@ If you have any ideas on how to improve or make it better, please give me a shou
 
 Special Thanks to Julius Bzozowski, Cody Clark and Garrett B. Settles, for helping me out with this extremely personal project. It would not be done half as well without them, and I owe them my thanks.
 
-npm install --save-dev gulp gulp-sass gulp-imagemin gulp-minify browser-sync
+This ended up being replaced by my Jade portfolio, and eventually I will be using the SCSS found here in my new portfolio.
