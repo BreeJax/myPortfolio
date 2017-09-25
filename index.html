@@ -2,8 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.scss">
+  <link rel="stylesheet" href="styles/scss/styles.css">
+   <!-- <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet"> -->
   <title>Bree's portfolio</title>
 </head>
 
@@ -14,10 +15,13 @@
     <h1 id="titles"><span class='header'> </span></h1>
   </header>
   <nav>
-    <p><a href="#aboutSection">About</a></p>
-    <p><a href="#projects">Apps</a></p>
-    <p><a href="#skills">Skills</a></p>
-    <p><a href="#contact">Contact</a></p>
+    <ul>
+      <li><a href="#aboutSection">About</a></li>
+      <li><a href="#projects">Apps</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+
+    </ul>
   </nav>
   <section id="aboutSection">
 
@@ -49,7 +53,10 @@
     <h3>placeholder</h3>
     <div class="projectExamples">
       <a class="projectExamples"href="#"><img src="images/hufflepuff.jpg" alt=""></a>
+      <div class="appInfo">
+
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
     </div>
     <h3>Collection Manager- Harry Potter Style</h3>
     <div class="projectExamples">
@@ -64,13 +71,22 @@
     <h3>placeholder</h3>
     <div class="projectExamples">
       <a class="projectExamples"href="#"><img src="images/hufflepuff.jpg" alt=""></a>
+      <div class="appInfo">
+
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
+  </div>
+
     <h3>placeholder</h3>
     <div class="projectExamples">
       <a class="projectExamples"href="#"><img src="images/hufflepuff.jpg" alt=""></a>
+      <div class="appInfo">
+
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
+
+    </div>
+
 
   </section>
   <section id="skills">
@@ -108,6 +124,37 @@
           <p class="skillsNames">MongoDB</p>
         </div>
       </div>
+      <div class="iconDiv">
+        <img class="icons" src="images/pug.png" alt="Pug Logo">
+        <div class="skillsNamesDivs">
+          <p class="skillsNames">Pug</p>
+        </div>
+      </div>
+      <div class="iconDiv">
+        <img class="icons" src="images/expressjs.png" alt="expressjs logo">
+        <div class="skillsNamesDivs">
+          <p class="skillsNames">ExpressJS</p>
+        </div>
+      </div>
+      <div class="iconDiv">
+        <img class="icons" src="images/postgres.png" alt="postgres logo">
+        <div class="skillsNamesDivs">
+          <p class="skillsNames">Postgres</p>
+        </div>
+      </div>
+      <div class="iconDiv">
+        <img class="icons" src="images/chai.png" alt="Chai logo">
+        <div class="skillsNamesDivs">
+          <p class="skillsNames">Chai</p>
+        </div>
+      </div>
+      <div class="iconDiv">
+        <img class="icons" src="images/mocha.png" alt="mocha logo">
+        <div class="skillsNamesDivs">
+          <p class="skillsNames">Mocha</p>
+        </div>
+      </div>
+
 
     </section>
   </section>
@@ -115,9 +162,9 @@
   <div id="contact" class="navigation">
     <p><a href="tel:1-727-614-1770"><img class="logos" src="images/phone.png" alt="Bree's phone number is 727-614-1770"></a></p>
     <p><a href="https://github.com/BreeJax" target="_blank"><img class="logos"src="images/github.png" alt="link to Bree's Github"></a></p>
-    <p><a href="mailto:bjacksonsisterwolf@gmial.com?subject=Lets%20Grab%20coffee%20and%20talk%20code!"><img class="logos" src="images/email.png" alt="link to email Bree"></a></p>
+    <p><a href="mailto:breejax.codingstrong@gmial.com?subject=Lets%20Grab%20coffee%20and%20talk%20code!"><img class="logos" src="images/email.png" alt="link to email Bree"></a></p>
     <p><a href="https://www.linkedin.com/in/breejax/" target="_blank"><img class="logos" src="images/linkedin.png" alt="link to Bree's linkedIn"></a></p>
-    <p><a href="https://www.linkedin.com/in/breejax/" target="_blank"><img class="logos" src="images/linkedin.png" alt="link to Bree's linkedIn"></a></p>
+    <p><a href="breeResume.pdf" target="_blank"><img class="logos" src="images/resume.svg" alt="PDF of Bree's resume"></a></p>
 
   </div>
 

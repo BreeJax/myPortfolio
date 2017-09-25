@@ -1,0 +1,14 @@
+@function set-text-color($bree-purple) {
+  @if (lightness($bree-purple) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+@function set-text-color($see-through-purple) {
+  @if (lightness($see-through-purple) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}

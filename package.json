@@ -4,9 +4,20 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp"
   },
   "author": "Bree Alexandra Jackson",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "devDependencies": {
+    "gulp-imagemin": "^3.3.0",
+    "gulp-minify": "^1.0.0"
+  }
+
+  /*npm install --save-dev gulp gulp-sass gulp-imagemin gulp-minify browser-sync*/
 }
